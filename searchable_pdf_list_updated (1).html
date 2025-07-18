@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Searchable PDF List</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    #searchInput { width: 100%; padding: 10px; font-size: 16px; margin-bottom: 20px; }
+    .pdf-item { margin-bottom: 10px; }
+    a { text-decoration: none; color: #0066cc; }
+  </style>
+</head>
+<body>
+  <h2>Search PDFs</h2>
+  <input type="text" id="searchInput" onkeyup="filterPDFs()" placeholder="Search by keyword...">
+  <div id="pdfList">
+
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1gAZKCOENMfAn9hTCI53yssO2QalfGRNV&usp=drive_copy" target="_blank">Case Notes and Charting Basics for Health Coaches</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1D3xzsTQUFkckAQYVvfsTs2vJWeLtEdKz&usp=drive_copy" target="_blank">CES-D</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=17oFC20HWAOnZPiXbgXoTRii5wcaL0ktZ&usp=drive_copy" target="_blank">CES-D Scoring Rules</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1sOaASnPH7gP3dy6fotQc16jGx13HiQ9C&usp=drive_copy" target="_blank">Coaching Health Continuum – MBN Systems</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1RXcluqaIlfwJT_lrhjLUKiwmMPqlVO-I&usp=drive_copy" target="_blank">Coaching Structure</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1tG2bk6VBMBCebyCx0BaP5AaN3hYmcxZv&usp=drive_copy" target="_blank">Considerations When Working with Children</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=10sZhtHi-UPpnR7C_Ereco7JPWw1EgyBO&usp=drive_copy" target="_blank">Fitness to Practice</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1bFa_6nEDqcbygnom0AOI-PK9smHqeJmx&usp=drive_copy" target="_blank">Goal Setting for Behavior Change</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1ICDB9ajd7qUO8Twrq8FsGVy6o9MqOZim&usp=drive_copy" target="_blank">Goal Setting for Behavior Change – Spanish</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1Pjsc1cByxTuEmqiNfGemzAXehuXdyS14&usp=drive_copy" target="_blank">Importance of Social Support and Relationships</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=15Yi6JQrFZ82IkmlqgBu270QLzx0XzKl4&usp=drive_copy" target="_blank">Individual Differences in Prioritizing Positivity</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1rFiHmqY0-VYVziCJGyeZOZrgaPjBKfFU&usp=drive_copy" target="_blank">Liability Insurance Resource</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1sig5GgcQw1HlJIhljwOp8yup1frI2jVC&usp=drive_copy" target="_blank">Nuances of Face-to-Face vs. Online Coaching</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1yzj6eMi1Dm1_focmsxgHNrbCessDLNml&usp=drive_copy" target="_blank">One-on-One vs. Group Coaching Considerations</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1ws60PZasq3WWM15g3ljpd-SXFTzePe_X&usp=drive_copy" target="_blank">Readiness for Change</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1X_cDPcgCQpaGdivarDDxsJ_rQPRNBHMK&usp=drive_copy" target="_blank">Resources for Wearable Devices and Tracking Tools</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1-kBM3q1Hsmy6fB3S9jMg51e7-KRxrN9_&usp=drive_copy" target="_blank">Role of the Health Coach in Lab Testing</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1q4IjH-zIPBKz_1S9QYT_wwg3we8Igyp-&usp=drive_copy" target="_blank">Signs Indicating Referral May Be Appropriate</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1m1joyML7vMjxsHZJTgVcF6pbPC43GEXS&usp=drive_copy" target="_blank">Strategies for Transforming Stress</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1LyBRzBI4BNg1gWumMekJLdZZ_L-Fql5Q&usp=drive_copy" target="_blank">Suicide Prevention Resources</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=190OWTrVCqFxSwQmb78_-2ZQKsZM-UvKr&usp=drive_copy" target="_blank">The ABCs for Rational Thinking Worksheet</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1XtXlYHhCOOC-BDeSRJzBseud--LqSv-r&usp=drive_copy" target="_blank">Values Card Sort</a>
+    </div>
+    
+    <div class="pdf-item">
+      <a href="https://drive.google.com/open?id=1zd4JJhKZS8az82dlPFopLtIrsbyZyZ--&usp=drive_copy" target="_blank">Wellness Map 360 – Wheel of Life</a>
+    </div>
+    
+  </div>
+  <script>
+    function filterPDFs() {
+      var input = document.getElementById('searchInput');
+      var filter = input.value.toLowerCase();
+      var items = document.getElementsByClassName('pdf-item');
+      for (var i = 0; i < items.length; i++) {
+        var text = items[i].innerText.toLowerCase();
+        items[i].style.display = text.includes(filter) ? "" : "none";
+      }
+    }
+  </script>
+</body>
+</html>
